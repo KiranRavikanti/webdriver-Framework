@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48" started-at="2015-09-28T01:14:24Z" finished-at="2015-09-28T01:14:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48" started-at="2015-09-28T01:14:24Z" finished-at="2015-09-28T01:14:24Z">
+      <class name="com.sfdc.com.AutomationDemo.LeadTest">
+        <test-method status="PASS" signature="runBeforeClass()" name="runBeforeClass" is-config="true" duration-ms="42" started-at="2015-09-28T01:14:24Z" finished-at="2015-09-28T01:14:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

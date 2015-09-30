@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationDemo" parallel="classes" thread-count="2">
+  <test name="Functional suite 1" >
+   <group>
+   <run>
+   <include name = "Functional Tests"/>
+   </run>
+   </group>
+  <class>
+  <class name ="com.sfdc.com.AutomationDemo.LeadTest"/>
+  <class name = "com.sfdc.com.AutomationDemo.TestClass"/>
+  </class>
+    
+ </test>
+</suite>

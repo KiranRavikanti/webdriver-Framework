@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Tarakeshs-MacBook-Pro-2.local" name="com.sfdc.com.AutomationDemo.LeadTest" tests="1" failures="1" timestamp="27 Sep 2015 21:42:16 GMT" time="61.753" errors="0">
+  <testcase name="testLeadPage" time="58.6" classname="com.sfdc.com.AutomationDemo.LeadTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;searchResultsWarningMessageBox&amp;quot;}
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.47.1&amp;apos;, revision: &amp;apos;unknown&amp;apos;, time: &amp;apos;2015-07-30 11:02:44&amp;apos;
+System info: host: &amp;apos;Tarakeshs-MacBook-Pro-2.local&amp;apos;, ip: &amp;apos;192.168.1.117&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.10.2&amp;apos;, java.version: &amp;apos;1.8.0_40&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 77d564bf-864c-e049-86a1-20e0a7801a20
+*** Element info: {Using=id, value=searchResultsWarningMessageBox}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"searchResultsWarningMessageBox"}
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Tarakeshs-MacBook-Pro-2.local', ip: '192.168.1.117', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 77d564bf-864c-e049-86a1-20e0a7801a20
+*** Element info: {Using=id, value=searchResultsWarningMessageBox}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.sfdc.com.AutomationDemo.LeadPage.verifyNoRecordsFound(LeadPage.java:112)
+	at com.sfdc.com.AutomationDemo.LeadTest.testLeadPage(LeadTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"searchResultsWarningMessageBox"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Tarakeshs-MacBook-Pro-2.local', ip: '192.168.1.117', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_40'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/bc/jrv65rbj77b3zz7j6f2vqkx00000gn/T/anonymous3497611326764565422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/bc/jrv65rbj77b3zz7j6f2vqkx00000gn/T/anonymous3497611326764565422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

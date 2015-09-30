@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [AutomationDemo]" parallel="classes">
+  <test name="Functional suite 1(failed)" parallel="classes" preserve-order="false">
+    <groups>
+      <run>
+        <include name="Functional Tests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sfdc.com.AutomationDemo.LeadTest">
+        <methods>
+          <include name="testLeadPage"/>
+          <include name="openSFDC"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
